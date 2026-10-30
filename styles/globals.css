@@ -20,6 +20,9 @@ h5,
 h6,
 p {
   margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 ul {
@@ -39,4 +42,13 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+a:focus,
+button:focus {
+  outline: none;
 }

@@ -1,4 +1,25 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --dark-blue: #000028;
+  --bright-pink: #ff0070;
+  --purple: #db00ff;
+  --light-pink: #f1b2ce;
+  --pale-pink: #fff1f7;
+  --pink: #ff8dcb;
+  --soft-pink: #ffc2e6;
+  --dark-gray: #353430;
+  --page-cover-image: url("../images/cover-image-dark.png");
+  --background-color: var(--dark-blue);
+  --accent-color: var(--bright-pink);
+  --accent-color-alt: var(--purple);
+  --primary-color: var(--light-pink);
+  --secondary-color: var(--dark-blue);
+  --font-family: "IBM Plex mono", sans-serif;
+}
+
+.theme-light {
+  --page-cover-image: url("../images/cover-image-light.png");
+  --accent-color: var(--pink);
+  --accent-color-alt: var(--soft-pink);
+  --primary-color: var(--dark-gray);
+  --secondary-color: var(--pale-pink);
+}
